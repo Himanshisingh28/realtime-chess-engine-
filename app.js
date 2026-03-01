@@ -29,8 +29,9 @@ io.on('connection', function(uniquesocket){
         players.white = uniquesocket.id;
         uniquesocket.emit("playerRole","w");
     }else if (!players.black){
-        players.black = uniquesocket("playerrole","b");
-    } else {
+        players.black = uniquesocket.id;
+        uniquesocket.emit("playerRole","b");
+    }else {
         uniquesocket.emit("spectatorRole");
     }
 
