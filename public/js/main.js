@@ -1,5 +1,5 @@
-// const { Chess } = require("chess.js");
-// const {render} = require("ejs")
+
+
 const socket = io();
 const chess = new Chess();
 const boardElement = document.querySelector(".chessboard");
@@ -117,6 +117,5 @@ socket.on("move", function(move){
     chess.load(move);
     renderBoard();
 })
-
 
 renderBoard();
