@@ -4,7 +4,7 @@ A full-stack **real-time chess application** that allows two players to play liv
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:** HTML, CSS, JavaScript
 **Backend:** Node.js, Express.js
@@ -51,9 +51,7 @@ Server runs at:
 ```
 http://localhost:3000
 ```
-
 ---
-
 ##  How It Works
 
 1. Player 1 opens the game.
@@ -61,21 +59,14 @@ http://localhost:3000
 3. Server assigns roles (White/Black).
 4. Moves are sent to the server via Socket.IO.
 5. Server validates and broadcasts moves to keep boards synchronized.
-
 ---
-
 ##  Future Improvements
-
 * Private game rooms
 * Spectator mode
 * Chess timer
 * In-game chat
 * Leaderboard system
-
 ---
-
 ## Author
-
 Himanshee
----
 
