@@ -74,7 +74,7 @@ const renderBoard = () =>{
 const handleMove = (source, target) =>{
     const move ={
         from: `${String.fromCharCode(97+source.col)}${8 - source.row}`,
-        to: `${String.fromCharCode(97+source.col)}${8 - source.row}`,
+        to: `${String.fromCharCode(97+source.col)}${8 - target.row}`,
         promotion: 'q'
     };
     socket.emit("move", move);
@@ -114,7 +114,7 @@ socket.on("boardState", function(fen){
     renderBoard();
 })
 socket.on("move", function(move){
-    chess.load(move);
+    chess.move(move);
     renderBoard();
 })
 
