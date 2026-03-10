@@ -1,6 +1,6 @@
 #  Real-Time Multiplayer Chess Game
 
-A full-stack **real-time chess application** that allows two players to play live over the internet using WebSockets. Built with **Node.js**, **Express**, and **Socket.IO**, this project demonstrates real-time communication, multiplayer synchronization, and server-side game validation.
+A full-stack **real-time chess application** that allows two players to play live over the internet using WebSockets. Built with **Node.js**, **Express**, **javascript** and **Socket.IO**, this project demonstrates real-time communication, multiplayer synchronization, and server-side game validation.
 
 ---
 
@@ -67,6 +67,5 @@ http://localhost:3000
 * In-game chat
 * Leaderboard system
 ---
-## Author
-Himanshee
+
 
